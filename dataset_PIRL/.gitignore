@@ -1,0 +1,13 @@
+# NEVER commit datasets or outputs
+*.pt
+*.pth
+*.npy
+*.npz
+
+adj_torch/
+adj_torch_tr100_te10/
+viz_preds/
+logs/
+results/
+
+__pycache__/
