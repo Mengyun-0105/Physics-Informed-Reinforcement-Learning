@@ -137,3 +137,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# dataset and outputs (do not commit)
+dataset_PIRL/adj_torch/
+dataset_PIRL/adj_torch_tr100_te10/
+dataset_PIRL/viz_preds/
