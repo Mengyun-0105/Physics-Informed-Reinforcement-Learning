@@ -137,3 +137,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ARC / Ray runtime outputs
+nano_rl_logs/
+ray_saved_sessions/
