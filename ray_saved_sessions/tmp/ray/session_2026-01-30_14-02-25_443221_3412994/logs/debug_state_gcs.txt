@@ -1,0 +1,96 @@
+GcsNodeManager: 
+- RegisterNode request count: 1
+- DrainNode request count: 0
+- GetAllNodeInfo request count: 303
+- GetInternalConfig request count: 1
+
+GcsActorManager: 
+- RegisterActor request count: 16
+- CreateActor request count: 16
+- GetActorInfo request count: 16
+- GetNamedActorInfo request count: 0
+- GetAllActorInfo request count: 0
+- KillActor request count: 0
+- ListNamedActors request count: 0
+- Registered actors count: 16
+- Destroyed actors count: 0
+- Named actors count: 0
+- Unresolved actors count: 0
+- Pending actors count: 0
+- Created actors count: 1
+- owners_: 1
+- actor_to_register_callbacks_: 0
+- actor_to_create_callbacks_: 0
+- sorted_destroyed_actor_list_: 0
+
+GcsResourceManager: 
+- GetResources request count: 0
+- GetAllAvailableResources request count0
+- ReportResourceUsage request count: 0
+- GetAllResourceUsage request count: 569
+
+GcsPlacementGroupManager: 
+- CreatePlacementGroup request count: 1
+- RemovePlacementGroup request count: 0
+- GetPlacementGroup request count: 1
+- GetAllPlacementGroup request count: 1
+- WaitPlacementGroupUntilReady request count: 0
+- GetNamedPlacementGroup request count: 0
+- Scheduling pending placement group count: 5490
+- Registered placement groups count: 1
+- Named placement group count: 1
+- Pending placement groups count: 1
+- Infeasible placement groups count: 0
+
+GcsPublisher {}
+
+[runtime env manager] ID to URIs table:
+[runtime env manager] URIs reference table:
+
+GrpcBasedResourceBroadcaster:
+- Tracked nodes: 1
+
+
+Global stats: 133470 total (20 active)
+Queueing time: mean = 10.055 us, max = 16.617 ms, min = 748.000 ns, total = 1.342 s
+Execution time:  mean = 13.463 us, total = 1.797 s
+Event stats:
+	RaySyncer.deadline_timer.report_resource_report - 28497 total (1 active), CPU time: mean = 5.020 us, total = 143.056 ms
+	NodeManagerService.grpc_client.UpdateResourceUsage - 28226 total (0 active), CPU time: mean = 6.614 us, total = 186.679 ms
+	ResourceUpdate - 28226 total (0 active), CPU time: mean = 7.887 us, total = 222.608 ms
+	NodeManagerService.grpc_client.RequestResourceReport - 28226 total (0 active), CPU time: mean = 21.667 us, total = 611.583 ms
+	GcsInMemoryStore.Put - 4402 total (0 active), CPU time: mean = 30.515 us, total = 134.329 ms
+	InternalKVGcsService.grpc_server.InternalKVPut - 4264 total (0 active), CPU time: mean = 15.160 us, total = 64.642 ms
+	RayletLoadPulled - 2850 total (1 active), CPU time: mean = 56.412 us, total = 160.776 ms
+	NodeManagerService.grpc_client.GetResourceLoad - 2844 total (0 active), CPU time: mean = 10.534 us, total = 29.958 ms
+	GcsPlacementGroupManager.SchedulePendingPlacementGroups - 2745 total (0 active), CPU time: mean = 81.930 ns, total = 224.899 us
+	GcsInMemoryStore.Get - 892 total (0 active), CPU time: mean = 23.250 us, total = 20.739 ms
+	InternalKVGcsService.grpc_server.InternalKVGet - 891 total (0 active), CPU time: mean = 14.014 us, total = 12.486 ms
+	NodeResourceInfoGcsService.grpc_server.GetAllResourceUsage - 569 total (0 active), CPU time: mean = 106.182 us, total = 60.418 ms
+	NodeInfoGcsService.grpc_server.GetAllNodeInfo - 303 total (0 active), CPU time: mean = 43.021 us, total = 13.035 ms
+	GCSServer.deadline_timer.debug_state_dump - 285 total (1 active, 1 running), CPU time: mean = 281.128 us, total = 80.121 ms
+	StatsGcsService.grpc_server.AddProfileData - 52 total (0 active), CPU time: mean = 17.589 us, total = 914.619 us
+	GCSServer.deadline_timer.debug_state_event_stats_print - 48 total (1 active), CPU time: mean = 224.859 us, total = 10.793 ms
+	WorkerInfoGcsService.grpc_server.AddWorkerInfo - 18 total (0 active), CPU time: mean = 13.930 us, total = 250.741 us
+	CoreWorkerService.grpc_client.WaitForActorOutOfScope - 16 total (16 active), CPU time: mean = 0.000 s, total = 0.000 s
+	CoreWorkerService.grpc_client.PushTask - 16 total (0 active), CPU time: mean = 141.065 us, total = 2.257 ms
+	ActorInfoGcsService.grpc_server.RegisterActor - 16 total (0 active), CPU time: mean = 1.181 ms, total = 18.900 ms
+	NodeManagerService.grpc_client.RequestWorkerLease - 16 total (0 active), CPU time: mean = 131.295 us, total = 2.101 ms
+	ActorInfoGcsService.grpc_server.CreateActor - 16 total (0 active), CPU time: mean = 166.665 us, total = 2.667 ms
+	ActorInfoGcsService.grpc_server.GetActorInfo - 16 total (0 active), CPU time: mean = 12.192 us, total = 195.068 us
+	GcsInMemoryStore.GetAll - 10 total (0 active), CPU time: mean = 1.727 ms, total = 17.268 ms
+	PeriodicalRunner.RunFnPeriodically - 4 total (0 active), CPU time: mean = 55.248 us, total = 220.992 us
+	InternalKVGcsService.grpc_server.InternalKVKeys - 4 total (0 active), CPU time: mean = 14.688 us, total = 58.751 us
+	GcsInMemoryStore.Keys - 4 total (0 active), CPU time: mean = 25.164 us, total = 100.657 us
+	JobInfoGcsService.grpc_server.GetAllJobInfo - 3 total (0 active), CPU time: mean = 53.993 us, total = 161.980 us
+	JobInfoGcsService.grpc_server.GetNextJobID - 1 total (0 active), CPU time: mean = 34.760 us, total = 34.760 us
+	PlacementGroupInfoGcsService.grpc_server.CreatePlacementGroup - 1 total (0 active), CPU time: mean = 52.167 us, total = 52.167 us
+	NodeInfoGcsService.grpc_server.GetInternalConfig - 1 total (0 active), CPU time: mean = 9.521 us, total = 9.521 us
+	JobInfoGcsService.grpc_server.AddJob - 1 total (0 active), CPU time: mean = 74.986 us, total = 74.986 us
+	GcsInMemoryStore.Exists - 1 total (0 active), CPU time: mean = 19.018 us, total = 19.018 us
+	PlacementGroupInfoGcsService.grpc_server.GetAllPlacementGroup - 1 total (0 active), CPU time: mean = 12.743 us, total = 12.743 us
+	InternalKVGcsService.grpc_server.InternalKVExists - 1 total (0 active), CPU time: mean = 16.524 us, total = 16.524 us
+	InternalKVGcsService.grpc_server.InternalKVDel - 1 total (0 active), CPU time: mean = 12.304 us, total = 12.304 us
+	PlacementGroupInfoGcsService.grpc_server.GetPlacementGroup - 1 total (0 active), CPU time: mean = 46.228 us, total = 46.228 us
+	NodeInfoGcsService.grpc_server.RegisterNode - 1 total (0 active), CPU time: mean = 56.550 us, total = 56.550 us
+	GcsInMemoryStore.Delete - 1 total (0 active), CPU time: mean = 18.817 us, total = 18.817 us

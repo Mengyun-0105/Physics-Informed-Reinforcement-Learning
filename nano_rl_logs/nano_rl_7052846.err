@@ -1,0 +1,6 @@
+=============================================================================
+This module includes execution of the conda shell function.
+There is no need to run conda init. For more details, see:
+https://arc-software-guide.readthedocs.io/en/latest/python/anaconda_venv.html
+=============================================================================
+/apps/system/easybuild/software/Anaconda3/2025.06-1/etc/conda/activate.d/qt-main_activate.sh: line 5: QT_XCB_GL_INTEGRATION: unbound variable

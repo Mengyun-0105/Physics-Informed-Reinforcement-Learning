@@ -1,0 +1,540 @@
+=============================================================================
+This module includes execution of the conda shell function.
+There is no need to run conda init. For more details, see:
+https://arc-software-guide.readthedocs.io/en/latest/python/anaconda_venv.html
+=============================================================================
+/data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-01-28 21:23:08,019	INFO worker.py:1528 -- Started a local Ray instance.
+2026-01-28 21:23:32,148	INFO simple_q.py:307 -- In multi-agent mode, policies will be optimized sequentially by the multi-GPU optimizer. Consider setting `simple_optimizer=True` if this doesn't work for you.
+2026-01-28 21:23:32,149	INFO algorithm.py:457 -- Current log_level is WARN. For more information, set 'log_level': 'INFO' / 'DEBUG' or use the -v and -vv flags.
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[36m(pid=2057419)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057419)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057419)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057420)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057420)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057420)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057418)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057418)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057418)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057425)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057425)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057425)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057427)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057427)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057427)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057431)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057431)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057431)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057429)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057429)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057429)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057421)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057421)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057421)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057423)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057423)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057423)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057432)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057432)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057432)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057424)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057424)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057424)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057428)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057428)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057428)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057430)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057430)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057430)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057433)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057433)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057433)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057426)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057426)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057426)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2057422)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2057422)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2057422)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(RolloutWorker pid=2057419)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057419)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057420)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057420)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057418)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057418)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057425)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057425)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057427)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057427)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057431)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057431)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057429)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057429)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057421)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057421)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057423)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057423)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057432)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057432)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057424)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057424)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057428)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057428)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057430)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057430)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057433)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057433)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057426)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057426)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057422)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2057422)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2057419)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057419)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057419)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057419)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057420)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057420)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057420)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057420)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057418)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057418)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057418)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057418)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057425)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057425)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057425)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057425)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057427)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057427)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057427)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057427)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057431)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057431)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057431)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057431)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057429)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057429)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057429)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057429)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057421)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057421)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057421)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057421)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057423)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057423)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057423)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057423)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057432)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057432)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057432)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057432)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057424)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057424)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057424)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057424)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057428)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057428)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057428)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057428)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057430)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057430)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057430)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057430)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057433)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057433)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057433)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057433)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057426)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057426)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057426)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057426)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057422)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057422)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2057422)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057422)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2057427)[0m Fontconfig error: No writable cache directories
+[2m[36m(RolloutWorker pid=2057433)[0m Fontconfig error: No writable cache directories
+[2m[36m(RolloutWorker pid=2057419)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057419)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057418)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057418)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057425)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057425)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057421)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057421)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057423)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057423)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057428)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057428)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057430)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057430)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057433)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057433)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057426)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057426)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057422)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057422)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057420)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057420)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057424)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057424)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057427)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057427)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057429)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057429)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057432)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057432)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057419)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057419)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057420)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057420)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057418)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057418)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057425)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057425)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057427)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057427)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057431)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2057431)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2057429)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057429)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057421)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057421)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057423)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057423)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057432)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057432)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057424)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057424)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057428)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057428)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057430)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057430)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057433)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057433)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057426)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057426)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057422)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057422)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2057431)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2057431)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+2026-01-28 21:24:23,746	INFO trainable.py:164 -- Trainable.setup took 51.599 seconds. If your trainable is slow to initialize, consider setting reuse_actors=True to reduce actor creation overheads.
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[36m(pid=2058746)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058746)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058746)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(SimpleQ pid=2058746)[0m 2026-01-28 21:24:32,847	INFO simple_q.py:307 -- In multi-agent mode, policies will be optimized sequentially by the multi-GPU optimizer. Consider setting `simple_optimizer=True` if this doesn't work for you.
+[2m[36m(SimpleQ pid=2058746)[0m 2026-01-28 21:24:32,848	INFO algorithm.py:457 -- Current log_level is WARN. For more information, set 'log_level': 'INFO' / 'DEBUG' or use the -v and -vv flags.
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[33m(raylet)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2m[33m(raylet)[0m   from pkg_resources import packaging
+[2m[36m(pid=2058934)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058934)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058934)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058929)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058929)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058929)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058930)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058930)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058930)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058931)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058931)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058931)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058937)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058937)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058937)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058944)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058944)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058944)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058942)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058942)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058942)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058935)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058935)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058935)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058936)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058936)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058936)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058932)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058932)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058932)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058938)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058938)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058938)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058940)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058940)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058940)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058939)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058939)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058939)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058945)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058945)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058945)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058943)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058943)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058943)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(pid=2058941)[0m Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+[2m[36m(pid=2058941)[0m Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+[2m[36m(pid=2058941)[0m See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2m[36m(RolloutWorker pid=2058934)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058934)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058934)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058934)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058934)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058934)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058930)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058930)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058930)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058930)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058930)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058930)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058929)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058929)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058934)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058934)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058929)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058929)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058929)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058929)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058930)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058930)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058931)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058931)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058937)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058937)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058934)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058934)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058929)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058929)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058931)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058931)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058931)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058931)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058937)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058937)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058937)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058937)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058936)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058936)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058936)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058936)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058936)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058936)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058930)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058930)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058931)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058931)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058937)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058937)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058936)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058936)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058943)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058943)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058943)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058943)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058943)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058943)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058929)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058929)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058943)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058943)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058931)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058931)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058937)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058937)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058936)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058936)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058942)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058942)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058942)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058942)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058942)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058942)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058940)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058940)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058943)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058943)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058944)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058944)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058942)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058942)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058935)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058935)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058935)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058935)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058935)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058935)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058932)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058932)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058938)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058938)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058938)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058938)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058938)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058938)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058940)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058940)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058940)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058940)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058939)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058939)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058939)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058939)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058939)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058939)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058945)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058945)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058945)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058945)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058945)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058945)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058941)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:66: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+[2m[36m(RolloutWorker pid=2058941)[0m   ).setParseAction(self._family)
+[2m[36m(RolloutWorker pid=2058941)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058941)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058941)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058941)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058944)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058944)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058944)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058944)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058932)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:127: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058932)[0m   self._parser.parseString(pattern)
+[2m[36m(RolloutWorker pid=2058932)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/fontconfig_pattern.py:134: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058932)[0m   self._parser.resetCache()
+[2m[36m(RolloutWorker pid=2058935)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058935)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058932)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058932)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058938)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058938)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058940)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058940)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058939)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058939)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058941)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058941)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058944)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058944)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058942)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058942)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058940)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058940)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058945)[0m /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/_mathtext.py:30: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+[2m[36m(RolloutWorker pid=2058945)[0m   ParserElement.enablePackrat()
+[2m[36m(RolloutWorker pid=2058941)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058941)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058944)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058944)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058935)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058935)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058932)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058932)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058938)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058938)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058939)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058939)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(RolloutWorker pid=2058945)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[2m[36m(RolloutWorker pid=2058945)[0m In /data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[2m[36m(SimpleQ pid=2058746)[0m 2026-01-28 21:25:06,243	INFO trainable.py:164 -- Trainable.setup took 33.397 seconds. If your trainable is slow to initialize, consider setting reuse_actors=True to reduce actor creation overheads.
+[2m[36m(SimpleQ pid=2058746)[0m 2026-01-28 21:25:10,347	WARNING deprecation.py:47 -- DeprecationWarning: `concat_samples` has been deprecated. Use `concat_samples() from rllib.policy.sample_batch` instead. This will raise an error in the future!
+2026-01-28 21:55:19,346	INFO tune.py:777 -- Total run time: 1855.03 seconds (1851.40 seconds for the tuning loop).

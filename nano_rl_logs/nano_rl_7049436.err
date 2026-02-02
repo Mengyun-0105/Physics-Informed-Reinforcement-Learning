@@ -1,0 +1,12 @@
+=============================================================================
+This module includes execution of the conda shell function.
+There is no need to run conda init. For more details, see:
+https://arc-software-guide.readthedocs.io/en/latest/python/anaconda_venv.html
+=============================================================================
+/data/dtce-schmidt/oums1256/venvs/nano_rl/lib/python3.10/site-packages/ray/air/_internal/remote_storage.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-01-29 15:14:53,826	INFO worker.py:1528 -- Started a local Ray instance.
+[2026-01-29 15:15:43,741 E 2923619 2923619] core_worker.cc:179: Failed to register worker 01000000ffffffffffffffffffffffffffffffffffffffffffffffff to Raylet. IOError: [RayletClient] Unable to register worker with raylet. No such file or directory
